@@ -84,7 +84,6 @@ h1 {
 .box-splash {
 	height: 400px;
 	width: 100%;
-	color: blue;
 	background-image: url(../images/laurenbw.jpg);
 	background-size: cover;
 	background-repeat: no-repeat; 
@@ -103,4 +102,37 @@ h1 {
 	color: gray;
 	margin-left: 50px;
 }
+.navbar-header .navbar-nav>li>a:hover span, .navbar-header .navbar-nav>li>a:focus span {
+	color: blue;
 }
+.navbar-header .navbar-toggle:hover, .navbar-header .navbar-toggle:focus {
+	background-color: white;
+}
+.navbar-header .navbar-nav>li>a {
+	color: blue;
+}
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: white;
+}
+.navbar-default .navbar-toggle:hover .icon-bar {
+	background-color: gray;
+}
+.work-splash {
+	height: 400px;
+	width: 100%;
+	background-image: url(../images/desk.jpg);
+	background-size: cover;
+	background-repeat: no-repeat; 
+	background-position-y: inherit;
+	background-position: center;
+	margin-top: -72px;
+}
+img {
+	height: 250px;
+	width: 250px;
+	margin: auto;
+}
+
+
+
+
