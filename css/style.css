@@ -253,6 +253,7 @@ img {
 }
 .sidebar a {
 	color: #ed7a00;
+	text-decoration: none;
 }
 .no-list-style {
 	list-style: none;
