@@ -15,20 +15,18 @@
                   <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-            <a class="navbar-brand" href="#">LAUREN DOWNER</a>
+            <a class="navbar-brand" href="index.html">LAUREN DOWNER</a>
           </div>
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav">
-          <li class="active">
-            <a href="#">ABOUT<span class="sr-only">(current)
+          <li>
+            <a href="../about/about.html">ABOUT<span class="sr-only">(current)
             </span>
               </a>
                 </li>
                   <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">WORK<span class="caret">
-                </span>
-            </a>
-        <ul class="dropdown-menu">
+                    <a href="#">WORK</a>
+        <!--<ul class="dropdown-menu">
           <li><a href="#">GEM ADVERTISING</a></li>
            <li><a href="#">SERVICEMASTER</a></li>
             <li><a href="#">MASTERCARD</a></li>
@@ -36,7 +34,7 @@
                 <li><a href="#">KENWOOD & EVERGREEN </a></li>
                   <li role="separator" class="divider"></li>
                     <li><a href="#">DOWNLOAD RESUME/CV</a></li>
-                      </ul>
+                      </ul>-->
                     <li><a href="#">ONLINE</a></li>
                   <li><a href="#">CONTACT</a></li>
                 </li>
@@ -58,7 +56,7 @@
 		<div class="enter-image">
 		<div class="box cover-message">
 			<button class="enter">WHO IS SHE?</button>
-		<h1>"Do what you love, love what you do."</h1>
+		<h3>"Do what you love, love what you do."</h3>
 			<p class="quote-author">- Said someone, sometime.</p>
 		</div>
 		</div>

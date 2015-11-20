@@ -21,9 +21,15 @@ h1 {
 	color: #FFF;
 	text-align: center;
 	font-size: 30px;
-	font-family: "Courier New";
+	color: #ed7a00;
+	font-family:'Courier New';
 }
 
+h3 {
+	color: #fff;
+	font-family: 'Courier New';
+	font-weight: bold;
+}
 .cover-message {
 	text-align: center;
 	position: inherit;
@@ -57,12 +63,12 @@ h1 {
 }
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
 	color: white;
-	background-color: gray;
+	background-color: #151515;
 }
 .navbar-default {
-	background-color: gray;
+	background-color: #151515;
 	opacity: .8;
-	border-color: gray;
+	border-color: #151515;
 	border-radius: 0px;
 }
 .navbar-default .navbar-brand {
@@ -91,13 +97,14 @@ h1 {
 	background-position: center;
 	margin-top: -72px;
 }
-.about-title	{
-	color: gray;
+.about-title {
+	color: #ed7a00;
 	text-align: left;
 	padding: 20px;
 	font-weight: bold;
+	font-family: 'Courier New';
 }
-.about-content {
+.about-content  {
 	font-family: 'Courier New';
 	color: gray;
 	margin-left: 50px;
@@ -116,6 +123,9 @@ h1 {
 }
 .navbar-default .navbar-toggle:hover .icon-bar {
 	background-color: gray;
+}
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover{
+	color: #ed7a00;
 }
 .work-splash {
 	height: 400px;
@@ -226,5 +236,13 @@ img {
 	display: none; 
 }
 
-
-
+.left {
+    width: 178px;
+    height: 100%;
+    float:left;
+    position: absolute;
+}
+.main {
+    position: absolute;
+    left:178px; top:92px; right:0; bottom:0;
+}
