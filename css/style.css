@@ -236,13 +236,31 @@ img {
 	display: none; 
 }
 
-.left {
-    width: 178px;
-    height: 100%;
-    float:left;
-    position: absolute;
+.work-content {
+	color: gray;
+	font-family: 'Courier New';
 }
-.main {
-    position: absolute;
-    left:178px; top:92px; right:0; bottom:0;
+
+.row {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.sidebar {
+	color: #ed7a00;
+	font-family: 'Courier New';
+
+}
+.sidebar a {
+	color: #ed7a00;
+}
+.no-list-style {
+	list-style: none;
+}
+
+.sidebar li {
+	padding: 15px 10px 15px 30px;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+	color: #ed7a00;
 }
