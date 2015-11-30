@@ -289,3 +289,10 @@ img {
 .carousel {
 	display: inline-block;
 }
+.carousel-control.right {
+	background-image: 0;
+}
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+	height: 400px;
+	width: auto;
+}
