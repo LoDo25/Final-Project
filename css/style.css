@@ -108,6 +108,7 @@ h3 {
 	font-family: 'Courier New';
 	color: gray;
 	margin-left: 50px;
+	padding-bottom: 10px;
 }
 .navbar-header .navbar-nav>li>a:hover span, .navbar-header .navbar-nav>li>a:focus span {
 	color: blue;
@@ -262,13 +263,12 @@ img {
 .sidebar li {
 	padding: 15px 10px 15px 30px;
 }
-.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover, .carousel-control:focus, .carousel-control:hover {
 	color: #ed7a00;
 }
 .form-layout {
 	text-align: center;
-    padding: 20px;
-    display: inline-block;
+    padding: 40px;
     border: solid;
 }
 .contact-button {
@@ -286,13 +286,17 @@ img {
 .phone-style {
 	display: inline-block;
 }
-.carousel {
-	display: inline-block;
-}
-.carousel-control.right {
+.carousel-control.right, .carousel-control.left {
 	background-image: 0;
+	background: none;
 }
 .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
 	height: 400px;
 	width: auto;
+}
+.carousel-indicators .active {
+	background-color: #ed7a00;
+}
+.carousel-indicators li {
+	border-color: #ed7a00;
 }
