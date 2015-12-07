@@ -5,13 +5,12 @@ border: 0;
 }
 
 .enter-image {
-	background-image: url(../images/lauren-downer.jpg);
+	background-image: url(../images/creative.jpg);
 	width: 100%;
 	height: 100%;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
-	margin-top: -73px;
 }
 .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
 	padding-left: 0;
@@ -33,13 +32,15 @@ h3 {
 .cover-message {
 	text-align: center;
 	position: inherit;
-
+}
+div {
+	padding-right: 20px;
 }
 .box {
     width: inherit;
     display: inline-table;
     position: absolute;
-    top: 500px;
+    top: 400px;
 
 }
 .enter {
@@ -66,10 +67,20 @@ h3 {
 	background-color: #151515;
 }
 .navbar-default {
-	background-color: #151515;
-	opacity: .8;
-	border-color: #151515;
 	border-radius: 0px;
+	position: fixed;
+	width: 100%;
+	z-index: 1;
+	border-color: transparent;
+	background-color: transparent;
+}
+.test {
+	background-color: rgba(21,21,21,0.7);
+	position: fixed;
+}
+.pages {
+	position: fixed; 
+	background-color: rgba(21,21,21,0.7);
 }
 .navbar-default .navbar-brand {
 	color: white;
@@ -78,11 +89,11 @@ h3 {
 .dropdown-toggle {
 	color: white;
 }
-.navbar-nav {
-	float: right;
+@media (min-width: 768px) {
+	.navbar-nav {float:right;}
 }
-@media (min-width: 992px) {
-	.col-md-12 
+.navbar-nav {
+	text-align: center;
 }
 .standard-background {
 	background-color: white;
@@ -95,7 +106,6 @@ h3 {
 	background-repeat: no-repeat; 
 	background-position-y: inherit;
 	background-position: center;
-	margin-top: -72px;
 }
 .about-title {
 	color: #ed7a00;
@@ -108,6 +118,7 @@ h3 {
 	font-family: 'Courier New';
 	color: gray;
 	margin-left: 50px;
+	padding-bottom: 10px;
 }
 .navbar-header .navbar-nav>li>a:hover span, .navbar-header .navbar-nav>li>a:focus span {
 	color: blue;
@@ -130,12 +141,11 @@ h3 {
 .work-splash {
 	height: 400px;
 	width: 100%;
-	background-image: url(../images/desk.jpg);
+	background-image: url(../images/pad.JPG);
 	background-size: cover;
 	background-repeat: no-repeat; 
 	background-position-y: inherit;
 	background-position: center;
-	margin-top: -72px;
 }
 img {
 	height: 250px;
@@ -262,6 +272,68 @@ img {
 .sidebar li {
 	padding: 15px 10px 15px 30px;
 }
-.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover, .carousel-control:focus, .carousel-control:hover {
 	color: #ed7a00;
+}
+.form-layout {
+	text-align: center;
+    padding: 40px;
+    border: solid;
+}
+.contact-button {
+	background-color: #ed7a00;
+    color: white;
+    border: solid 2px;
+    font-size: 16px;
+    margin-top: 15px;
+    padding: 10px;
+}
+.entry {
+    border: solid 1px;
+}
+
+.phone-style {
+	display: inline-block;
+}
+.carousel-control.right, .carousel-control.left {
+	background-image: 0;
+	background: none;
+}
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+	height: 400px;
+	width: auto;
+}
+.carousel-indicators .active {
+	background-color: #ed7a00;
+}
+.carousel-indicators li {
+	border-color: #ed7a00;
+}
+
+.btn-circle {
+	width: 60px;
+   height: 60px;
+   margin-top: 15px;
+   padding: 7px 16px;
+   border: 2px solid #fff;
+   border-radius: 100%!important;
+   font-size: 40px;
+   color: #fff;
+   background: 0 0;
+   -webkit-transition: background .3s ease-in-out;
+   -moz-transition: background .3s ease-in-out;
+   transition: background .3s ease-in-out;
+}
+.btn-circle i {
+	margin-left: -7.6px;
+}
+.btn-circle i:hover {
+	color: #ed7a00;
+}
+
+.btn.focus, .btn:focus, .btn:hover {
+	color: #fff;
+}
+.wrapper {
+	padding: 25px;
 }
