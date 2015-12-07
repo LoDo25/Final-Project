@@ -69,13 +69,19 @@ h3 {
 	position: fixed;
 	width: 100%;
 	z-index: 1;
-	background-color: transparent;
 	border-color: transparent;
+	background-color: transparent;
+	opacity: .7;
 }
+
 .test {
 	background-color: #151515;
 	opacity: .8;
-
+}
+.pages {
+	position: fixed; 
+	background-color: #151515;
+	opacity: .8;
 }
 .navbar-default .navbar-brand {
 	color: white;
@@ -137,7 +143,7 @@ h3 {
 .work-splash {
 	height: 400px;
 	width: 100%;
-	background-image: url(../images/desk.jpg);
+	background-image: url(../images/pad.jpg);
 	background-size: cover;
 	background-repeat: no-repeat; 
 	background-position-y: inherit;
@@ -322,8 +328,12 @@ img {
    transition: background .3s ease-in-out;
 }
 .btn-circle i {
-	margin-left: -6px;
+	margin-left: -7.6px;
 }
 .btn-circle i:hover {
 	color: #ed7a00;
+}
+
+.btn.focus, .btn:focus, .btn:hover {
+	color: #fff;
 }
