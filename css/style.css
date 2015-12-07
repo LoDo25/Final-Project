@@ -334,3 +334,6 @@ img {
 .btn.focus, .btn:focus, .btn:hover {
 	color: #fff;
 }
+.wrapper {
+	padding: 25px;
+}
