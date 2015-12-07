@@ -32,7 +32,9 @@ h3 {
 .cover-message {
 	text-align: center;
 	position: inherit;
-
+}
+div {
+	padding-right: 20px;
 }
 .box {
     width: inherit;
@@ -71,17 +73,14 @@ h3 {
 	z-index: 1;
 	border-color: transparent;
 	background-color: transparent;
-	opacity: .7;
 }
-
 .test {
-	background-color: #151515;
-	opacity: .8;
+	background-color: rgba(21,21,21,0.7);
+	position: fixed;
 }
 .pages {
 	position: fixed; 
-	background-color: #151515;
-	opacity: .8;
+	background-color: rgba(21,21,21,0.7);
 }
 .navbar-default .navbar-brand {
 	color: white;
@@ -90,11 +89,11 @@ h3 {
 .dropdown-toggle {
 	color: white;
 }
-.navbar-nav {
-	float: right;
+@media (min-width: 768px) {
+	.navbar-nav {float:right;}
 }
-@media (min-width: 992px) {
-	.col-md-12 
+.navbar-nav {
+	text-align: center;
 }
 .standard-background {
 	background-color: white;
@@ -107,7 +106,6 @@ h3 {
 	background-repeat: no-repeat; 
 	background-position-y: inherit;
 	background-position: center;
-	margin-top: -72px;
 }
 .about-title {
 	color: #ed7a00;
@@ -143,12 +141,11 @@ h3 {
 .work-splash {
 	height: 400px;
 	width: 100%;
-	background-image: url(../images/pad.jpg);
+	background-image: url(../images/pad.JPG);
 	background-size: cover;
 	background-repeat: no-repeat; 
 	background-position-y: inherit;
 	background-position: center;
-	margin-top: -72px;
 }
 img {
 	height: 250px;
