@@ -1,4 +1,6 @@
-
+$('.carousel').carousel({
+  interval: 2000
+})
 $(window).scroll(function() {
    if ($(".navbar-default").offset().top > 70) {
        $(".navbar-default").addClass("test");

@@ -147,6 +147,60 @@ div {
 	background-position-y: inherit;
 	background-position: center;
 }
+.online-splash {
+	height: 400px;
+	width: 100%;
+	background-image: url(../images/socialmedia.jpg);
+	background-size: cover;
+	background-repeat: no-repeat; 
+	background-position-y: inherit;
+	background-position: center;
+}
+.service-splash {
+	height: 450px;
+	width: 100%;
+	background-image: url(../images/office.jpg);
+	background-size: cover;
+	background-repeat: no-repeat; 
+	background-position-y: inherit;
+	background-position: center;
+}
+.brookes-splash {
+	height: 450px;
+	width: 100%;
+	background-image: url(../images/workout.jpg);
+	background-size: cover;
+	background-repeat: no-repeat; 
+	background-position-y: inherit;
+	background-position: center;
+}
+.mastercard-splash {
+	height: 450px;
+	width: 100%;
+	background-image: url(../images/london.jpg);
+	background-size: cover;
+	background-repeat: no-repeat; 
+	background-position-y: inherit;
+	background-position: center;
+}
+.kne-splash {
+	height: 450px;
+	width: 100%;
+	background-image: url(../images/kenwoodandevergreen-lake.jpg);
+	background-size: cover;
+	background-repeat: no-repeat; 
+	background-position-y: inherit;
+	background-position: center;
+}
+.creativeandstrategy-splash {
+	height: 450px;
+	width: 100%;
+	background-image: url(../images/creative-strategy2.jpg);
+	background-size: cover;
+	background-repeat: no-repeat; 
+	background-position-y: inherit;
+	background-position: center;
+}
 img {
 	height: 250px;
 	margin: auto;
@@ -165,7 +219,7 @@ img {
 }
 
 .client1 {
-	background-image: url(../images/desk.jpg);
+	background-image: url(../images/brookesbuilding.jpg);
 	display: block;
 	height: 300px;
 	background-size: cover;
@@ -175,7 +229,7 @@ img {
 	position: relative;
 }
 .client2 {
-	background-image: url(../images/lauren-downer.jpg);
+	background-image: url(../images/kenwoodandevergreen-campus.jpg);
 	display: block;
 	height: 300px;
 	background-size: cover;
@@ -185,7 +239,7 @@ img {
 	position: relative;
 }
 .client3 {
-	background-image: url(../images/lauren-downer.jpg);
+	background-image: url(../images/cashpassport.jpg);
 	display: block;
 	height: 300px;
 	background-size: cover;
@@ -194,18 +248,9 @@ img {
 	background-position: center;
 	position: relative;
 }
-.client3 {
-	background-image: url(../images/bridge.jpg);
-	display: block;
-	height: 300px;
-	background-size: cover;
-	background-repeat: no-repeat; 
-	background-position-y: inherit;
-	background-position: center;
-	position: relative;
-}
+
 .client4 {
-	background-image: url(../images/bridge.jpg);
+	background-image: url(../images/desk.jpg);
 	display: block;
 	height: 300px;
 	background-size: cover;
@@ -215,7 +260,7 @@ img {
 	position: relative;
 }
 .client5 {
-	background-image: url(../images/deepi.jpg);
+	background-image: url(../images/creativeandstrategy.jpg);
 	display: block;
 	height: 300px;
 	background-size: cover;
@@ -259,7 +304,7 @@ img {
 .sidebar {
 	color: #ed7a00;
 	font-family: 'Courier New';
-
+	text-align: center;
 }
 .sidebar a {
 	color: #ed7a00;
@@ -298,6 +343,17 @@ img {
 .carousel-control.right, .carousel-control.left {
 	background-image: 0;
 	background: none;
+	color: #151515;
+}
+.carousel-control.right, .carousel-control.left {
+	background-image: 0;
+	background: none;
+	color: #151515;
+}
+.carousel-control.right:hover, .carousel-control.left:hover {
+	background-image: 0;
+	background: none;
+	color: #ed7a00;
 }
 .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
 	height: 400px;
@@ -336,4 +392,9 @@ img {
 }
 .wrapper {
 	padding: 25px;
+}
+.pinterest {
+	width: 900px;
+    margin: 0 auto!important;
+    display: block!important;
 }
