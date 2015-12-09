@@ -52,6 +52,10 @@ div {
 	font-weight: bold;
 	color: white;
 }
+.enter:hover{
+	color: #fff;
+	text-decoration: none;
+}
 .quote-author {
 	font-family: "Courier New";
 	color: white;
@@ -101,7 +105,7 @@ div {
 .box-splash {
 	height: 400px;
 	width: 100%;
-	background-image: url(../images/laurenbw.jpg);
+	background-image: url(../images/lauren-downer.jpg);
 	background-size: cover;
 	background-repeat: no-repeat; 
 	background-position-y: inherit;
@@ -397,4 +401,19 @@ img {
 	width: 900px;
     margin: 0 auto!important;
     display: block!important;
+}
+.IN-widget {
+	display: block!important; 
+	width: 364px;
+	margin: 0 auto;
+}
+.about-lauren {
+	height: 400px;
+	width: 100%;
+	background-image: url(../images/laurenbw.jpg);
+	background-size: cover;
+	background-repeat: no-repeat; 
+	background-position-y: inherit;
+	background-position: center;
+}
 }
